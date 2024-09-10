@@ -1027,7 +1027,7 @@ main {
 
 .project-img {
   position: relative;
-  width: 100%;
+  width: 200px;
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
@@ -1039,8 +1039,8 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   background: transparent;
   z-index: 1;
   transition: var(--transition-1);
