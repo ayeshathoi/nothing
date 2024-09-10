@@ -28,9 +28,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>   
     function loadPage(divloc, page) {
-      console.log(page);
+      //console.log(page);
       $.get(page, function(data){
-          console.log(divloc);
+          //console.log(divloc);
           $(divloc).empty();
           $(divloc).html(data);
       });
@@ -169,12 +169,6 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>
-              About
-            </button>
-          </li>
-
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
@@ -186,7 +180,9 @@
             <button class="navbar-link" data-nav-link>Achievements</button>
           </li>
 
-          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Leadership</button>
+          </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -208,38 +204,323 @@
         - #RESUME
       -->
 
-
-
-
-      <article class="about active" data-page="about">
-        <div id="about" class="load" 
-        onclick="loadPage('#loadabout', 'pages/about.html')"> </div>
-        <div id="loadabout"> </div>
-
       <article class="resume" data-page="resume">
-        <div id="resume" class="load" onclick="loadPage('#loadresume', 'pages/resume.html')"> </div>
+        <div id="resume" class="load" onclick="loadPage('#loadresume', 'pages/about.html')"> </div>
         <div id="loadresume"> </div>
       </article>
-    
+      
 
 
 
       <!--
-        - #projects
+        - #PORTFOLIO
       -->
 
-      <article class="projects" data-page="projects">
-        <div class="load" onclick="loadPage('#loadprojects', 'pages/projects.html')"> </div>
-        <div id="loadprojects"> </div>
+      <article class="portfolio" data-page="projects">
+        <div>
+  <header>
+    <h2 class="h2 article-title">Under construction</h2>
+  </header>
+  
+  <section class="projects">
+  
+    <ul class="filter-list">
+  
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+  
+      <li class="filter-item">
+        <button data-filter-btn>Web design</button>
+      </li>
+  
+      <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+      </li>
+  
+      <li class="filter-item">
+        <button data-filter-btn>Web development</button>
+      </li>
+  
+    </ul>
+  
+    <div class="filter-select-box">
+  
+      <button class="filter-select" data-select>
+  
+        <div class="select-value" data-selecct-value>Select category</div>
+  
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+  
+      </button>
+  
+      <ul class="select-list">
+  
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Web design</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Applications</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Web development</button>
+        </li>
+  
+      </ul>
+  
+    </div>
+  
+    <ul class="project-list">
+  
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/img/projects/parkCar" alt="finance" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Finance</h3>
+  
+          <p class="project-category">Web development</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Orizon</h3>
+  
+          <p class="project-category">Web development</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web design">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Fundo</h3>
+  
+          <p class="project-category">Web design</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="applications">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Brawlhalla</h3>
+  
+          <p class="project-category">Applications</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web design">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">DSM.</h3>
+  
+          <p class="project-category">Web design</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web design">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">MetaSpark</h3>
+  
+          <p class="project-category">Web design</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Summary</h3>
+  
+          <p class="project-category">Web development</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="applications">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Task Manager</h3>
+  
+          <p class="project-category">Applications</p>
+  
+        </a>
+      </li>
+  
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="#">
+  
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+  
+            <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+          </figure>
+  
+          <h3 class="project-title">Arrival</h3>
+  
+          <p class="project-category">Web development</p>
+  
+        </a>
+      </li>
+  
+    </ul>
+  
+  </section>
+  
+</div>
+
+
+<script>
+  // custom select variables
+const select = document.querySelector("[data-select]");
+const selectItems = document.querySelectorAll("[data-select-item]");
+const selectValue = document.querySelector("[data-selecct-value]");
+const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
+select.addEventListener("click", function () { elementToggleFunc(this); });
+
+// add event in all select items
+for (let i = 0; i < selectItems.length; i++) {
+  selectItems[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    elementToggleFunc(select);
+    filterFunc(selectedValue);
+
+  });
+}
+
+
+
+// filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const filterFunc = function (selectedValue) {
+
+  for (let i = 0; i < filterItems.length; i++) {
+
+    if (selectedValue === "all") {
+      filterItems[i].classList.add("active");
+    } else if (selectedValue === filterItems[i].dataset.category) {
+      filterItems[i].classList.add("active");
+    } else {
+      filterItems[i].classList.remove("active");
+    }
+
+  }
+
+}
+
+// add event in all filter button items for large screen
+let lastClickedBtn = filterBtn[0];
+
+for (let i = 0; i < filterBtn.length; i++) {
+
+  filterBtn[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    filterFunc(selectedValue);
+
+    lastClickedBtn.classList.remove("active");
+    this.classList.add("active");
+    lastClickedBtn = this;
+
+  });
+
+}
+
+</script>
+
       </article>
 
       <!--
-        - #achievements
+        - #BLOG
       -->
 
-      <article class="achievements" data-page="achievements">
-        <div class="load" onclick="loadPage('#loadachievements', 'pages/achievements.html')"> </div>
-        <div id="loadachievements"> </div>
+      <article class="blog" data-page="blog">
+        <div class="load" onclick="loadPage('#loadblog', 'pages/blog.html')"> </div>
+        <div id="loadblog"> </div>
       </article>
 
       <!--
