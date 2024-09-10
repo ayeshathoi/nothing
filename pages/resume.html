@@ -2,54 +2,85 @@
   <header>
     <h2 class="h2 article-title">Resume</h2>
   </header>
-
-  <nav class="navbar">
-
-    <ul class="navbar-list">
-
-      <!-- <li class="navbar-item">
-        <a href="#we" class="navbar-link active" data-nav-link>Resume</a>
-        <div class="dropdown">
-          
-          <div class="dropdown-content">
-            <a  data-dropdown>Work Experience</a>
-            <a href="#re" data-dropdown>Research Experience</a>
-              <a href="#ed" data-dropdown>Education</a>
-                <a href="#ts" data-dropdown>Technical Skills</a>
-          </div>
-        </div>
-        
-        
-      </li> -->
-
-      <li class="navbar-item">
-        <button class="navbar-link" resume-button>Work Experience</button>
+  <section class="projects">
+  
+    <ul>
+  
+      <li>
+        <button class="active" data-filter-btn>All</button>
+      </li>
+  
+      <li>
+        <button leadership>Work Experience</button>
+      </li>
+  
+      <li class="filter-item">
+        <button data-filter-btn>Education</button>
+      </li>
+  
+      <li class="filter-item">
+        <button data-filter-btn>Technical Skills</button>
       </li>
 
-      <li class="navbar-item">
-        <button class="navbar-link" data-nav-link>Education</button>
-      </li>
-      
-      <li class="navbar-item">
-        <button class="navbar-link" data-nav-link>Technical Skills</button>
+      <li class="filter-item">
+        <button data-filter-btn>Achievements</button>
       </li>
 
-      <li class="navbar-item">
-        <button class="navbar-link" leadership-button>Achievements</button>
+      <li class="filter-item">
+        <button data-filter-btn>Leadership</button>
       </li>
 
-      <li class="navbar-item">
-        <button class="navbar-link" leadership-button>Leadership</button>
+      <li class="filter-item">
+        <button data-filter-btn>Extracurricular</button>
       </li>
-
-      <li class="navbar-item">
-        <button class="navbar-link" data-nav-link>Extracurricular</button>
-      </li>
-      
-      
+  
     </ul>
+  
+    <div class="filter-select-box">
+  
+      <button class="filter-select" data-select>
+  
+        <div class="select-value" data-selecct-value>Select category</div>
+  
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+  
+      </button>
+  
+      <ul class="select-list">
+  
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Work Experience</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Education</button>
+        </li>
+  
+        <li class="select-item">
+          <button data-select-item>Technical Skills</button>
+        </li>
 
-  </nav>
+        <li class="select-item">
+          <button data-select-item>Achievements</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Leadership</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Extracurricular</button>
+        </li>
+  
+      </ul>
+  
+    </div>
   
   
     <section class="timeline" >      
@@ -301,7 +332,7 @@
         
       </div>
   
-      <h3 class="h3" id="leadership">Leadership Activities</h3>
+      <h3 class="h3" id="ts" data-dropdown-item>Leadership Activities</h3>
     </div>
     
     <ol class="timeline-list">
@@ -421,7 +452,6 @@
           </li>
   </ul>
   </section>
-
-
+</section>
 
 </div>
