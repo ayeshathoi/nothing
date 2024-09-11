@@ -1972,3 +1972,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 .resume-item a:hover {
   background-color: #7ba387; /* Optional: Add a background color on hover */
 }
+
+
+.resume-lists ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox to align items horizontally */
+}
+
+.resume-lists li {
+  margin-right: 20px; /* Adjust the spacing between items as needed */
+}
+
+.resume-lists li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.resume-lists a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Use the text color of the parent element */
+}
