@@ -1102,6 +1102,9 @@ main {
 
 
 
+
+
+
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -1982,4 +1985,102 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: white; /* Set text color to white */
   text-decoration: none; /* Remove underline from links */
   padding: 10px; /* Optional: Add some padding for better appearance */
+}
+
+
+
+/*  */
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.projects-item { display: none; }
+
+.projects-item.active {
+  display: block;
+  animation: scaleUp 0.25s ease forwards;
+}
+
+@keyframes scaleUp {
+  0% { transform: scale(0.5); }
+  100% { transform: scale(1); }
+}
+
+.projects-item > a { width: 100%; }
+
+.projects-img {
+  position: relative;
+  width: 100%; /* Changed from 200px to 100% to fit within the grid column */
+  height: 200px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.projects-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Changed from 200px to 100% to fit within the grid column */
+  height: 100%; /* Changed from 200px to 100% to fit within the grid column */
+  background: transparent;
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.projects-item > a:hover .projects-img::before { background: hsla(0, 0%, 0%, 0.5); }
+
+.projects-item-icon-box {
+  --scale: 0.8;
+
+  background: var(--jet);
+  color: var(--orange-yellow-crayola);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(var(--scale));
+  font-size: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  opacity: 0;
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.projects-item > a:hover .projects-item-icon-box {
+  --scale: 1;
+  opacity: 1;
+}
+
+.projects-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
+
+.projects-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-1);
+}
+
+.projects-item > a:hover img { transform: scale(1.1); }
+
+.projects-title,
+.projects-category { margin-left: 10px; }
+
+.projects-title {
+  color: var(--white-2);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-400);
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+.projects-category {
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
 }
