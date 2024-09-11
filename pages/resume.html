@@ -3,7 +3,44 @@
     <h2 class="h2 article-title">Resume</h2>
   </header>
 <!--Use tag so that they can smoothly   -->
-    <section class="timeline" >      
+<!-- Work Experience, education, technical skills, achievements, leadership, extracurricular id -->
+<section class="projects">
+  
+  <ul class="filter-list">
+
+    <li class="filter-item">
+      <button href="#ex">
+        Work Experience</button>
+    </li>
+
+    <li class="filter-item">
+      <button href="#e">
+        Education</button>
+    </li>
+
+    <li class="filter-item">
+      <button href="#s">
+        Technical Skills</button>
+    </li>
+
+    <li class="filter-item">
+      <button href="#a">
+        Achievements</button>
+    </li>
+
+    <li class="filter-item">
+      <button href="#l">
+        Leadership</button>
+    </li>
+
+    <li class="filter-item">
+      <button href="#ext">
+        Extracurricular</button>
+    </li>
+
+  </ul>
+  </section>
+    <section class="timeline" id="ex">      
       <div class="title-wrapper">
         <div class="icon-box">
           <ion-icon name="bag-outline"></ion-icon>
@@ -58,7 +95,7 @@
     
     </section>
   
-  <section class="timeline">
+  <section class="timeline" id="e">
   
     <div class="title-wrapper">
       <div class="icon-box">
@@ -86,36 +123,39 @@
         <p class="timeline-text">
           <a href="ugrad.html" target="_blank">Undergraduate Labworks Webpage</a> 
         </p>
-        
+        <br><br>
           <div class="multicol-list">
             <div class="blog-text">Notable Courses</div>
-            <ul>
-              
-                <li><p class="timeline-text">CSE 305 - Computer Architecture</p></li>
-              
-                <li><p class="timeline-text">CSE 307 - Software Engineering</p></li>
-              
-                <li><p class="timeline-text">CSE 309 - Compiler Design</p></li>
-              
-                <li><p class="timeline-text">CSE 313 - Operating Systems</p></li>
-              
-                <li><p class="timeline-text">CSE 317 - Artificial Intelligence</p></li>
-              
-                <li><p class="timeline-text">CSE 321 - Computer Networks</p></li>
-              
-                <li><p class="timeline-text">CSE 405 - Computer Security</p></li>
-              
-                <li><p class="timeline-text">CSE 409 - Computer Graphics</p></li>
-              
-                <li><p class="timeline-text">CSE 463 - Introduction to Bioinformatics</p></li>
-              
-                <li><p class="timeline-text">CSE 471 - Machine Learning</p></li>
-              
-                <li><p class="timeline-text">MATH 245 - Statistics and Probability</p></li>
-              
-                <li><p class="timeline-text">MATH 247 - Linear Algebra</p></li>
-              
-            </ul>
+            <p class="timeline-text">
+              <b>Notable Courses: </b>
+              <br>
+              <table border="1">
+              <tr>
+                <td>CSE471- Machine Learning</td>
+                <td>CSE309- Compiler Design</td>
+              </tr>
+              <tr>
+                <td>CSE411- Simulation and Modeling</td>
+                <td>CSE421- Basic Graph Theory</td>
+              </tr>
+              <tr>
+                <td>CSE405- Computer Security</td>
+                <td>CSE321- Computer Networks</td>
+              </tr>
+              <tr>
+                <td>CSE305- Computer Architecture</td> 
+                <td>CSE313- Operating Systems</td>
+              </tr>
+              <tr>
+                <td>CSE307- Software Engineering</td>
+                <td>CSE325- Information System Design </td>  
+              </tr>
+              <tr>
+                <td>CSE463- Introduction to Bioinformatics</td>
+                <td>CSE409- Computer Graphics</td>
+              </tr>
+            </table>
+            </p>
           </div>
         
       </li>
@@ -156,7 +196,7 @@
   </section>
 
 
-  <section class="timeline">
+  <section class="timeline" id="s">
     <div class="title-wrapper">
       <div class="icon-box">
         <ion-icon name="code-slash-outline"></ion-icon>
@@ -184,7 +224,7 @@
   </section>
 
 
-  <section class="timeline">
+  <section class="timeline" id="a">
     <div class="title-wrapper">
       <div class="icon-box">
         <ion-icon name="trophy"></ion-icon>
@@ -245,7 +285,7 @@
 
 
 
-  <section class="timeline">
+  <section class="timeline" id="l">
     <div class="title-wrapper">
       <div class="icon-box">
         <ion-icon name="podium-outline"></ion-icon>
@@ -301,7 +341,7 @@
 
   </section>
 
-  <section class="timeline">
+  <section class="timeline" id="ext">
     <div class="title-wrapper">
       <div class="icon-box">
         <ion-icon name="people-outline"></ion-icon>
