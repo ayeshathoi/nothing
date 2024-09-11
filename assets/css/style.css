@@ -1959,3 +1959,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+.resume-item a {
+  display: block;
+  color: white; /* Set text color to white */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Optional: Add some padding for better appearance */
+}
+
+.resume-item a:hover {
+  background-color: #7ba387; /* Optional: Add a background color on hover */
+}
