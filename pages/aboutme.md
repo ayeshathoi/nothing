@@ -1,4 +1,4 @@
-Hello, I’m Ayesha Binte Mostofa from Dhaka,Bangladesh. I am a recent graduate from the **[Department of CSE at BUET](https://cse.buet.ac.bd/)**. You can visit my **[undergrad labwork page](https://ayeshathoi.github.io/ugrad.html)** to know more about my academic journey. Currently, I am working as a full-time lecturer in the department of CSE, **[Canadian University of Bangladesh](https://www.cub.edu.bd)**. 
+Hello, I’m Ayesha Binte Mostofa from Dhaka,Bangladesh. I am a recent graduate from the **[Department of CSE at BUET](https://cse.buet.ac.bd/)**. Currently, I am working as a full-time lecturer in the department of CSE, **[Canadian University of Bangladesh](https://www.cub.edu.bd)**. 
 
 I have a strong interest in **Natural Language Processing (NLP)**, **Computer Vision**, and the application of **Large Language Models (LLMs)**. I'm also keen on exploring **Systems**, **Network**, and **Software Security**, **Software Engineering**, and **Robotics**. With my diverse research background, I am looking forward to pursuing a **Ph.D.** in one of these fields.
 
