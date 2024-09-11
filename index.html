@@ -1,275 +1,1007 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayesha Binte Mostofa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/img/Profile Pictures/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Profile Pictures/favicon.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Ayesha Binte Mostofa</title>
+    <!-- Bootstrap CSS -->
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <!-- Import element definition and auto-register -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>   
-    function loadPage(divloc, page) {
-      //console.log(page);
-      $.get(page, function(data){
-          //console.log(divloc);
-          $(divloc).empty();
-          $(divloc).html(data);
-      });
-    }
-    $(document).ready(function(){
-            $('.load').trigger("click");
-    });
-</script>
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dae7af0921.js" crossorigin="anonymous"></script>
+  <link href="vendor/academicons/css/academicons.min.css" rel="stylesheet">    
 
-<body>
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script src="https://kit.fontawesome.com/dae7af0921.js" crossorigin="anonymous"></script>
+    <link href="vendor/academicons/css/academicons.min.css" rel="stylesheet">    
 
-  <!--
-    - #MAIN
-  -->
+    <link href="css/resume.css" rel="stylesheet">
 
-  <main>
+  </head>
 
-    <!--
-      - #SIDEBAR
-    -->
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary"
+     id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-none d-lg-block">
+          <!-- Square Image-->
+           
+          <img class="img-fluid img-profile mx-auto" src="img/Profile Pictures/Profile_Picture.jpg" alt="Ayesha, a young woman, similing at the camrera.">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
 
-    <aside class="sidebar" data-sidebar>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#research">Research Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">Notable Projects</a>
+          </li>
 
-      <div class="sidebar-info">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
 
-        <figure class="avatar-box">
-          <img src="./assets/img/Profile Pictures/Profile_Picture.jpg" alt="Ayesha Binte Mostofa" width="20%">
-        </figure>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skill">Skills</a>
+          </li>
 
-        <div class="info-content">
-          <h1 class="name" title="Ayesha Binte Mostofa">Ayesha Binte Mostofa</h1>
-          <p class="title">Lecturer <br> @ CUB</p>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#scholarship">Achievements</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#leadership">Leadership Activities</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#gallery">Personal Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="files/Academic_Resume_Ayesha.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+        </div>
+        <img src="icons/moons.png" style="width: 30px; height: 30px;" id="icon" onclick="toggleDarkMode()" alt="Dark Mode">
+      
+    </nav>
+
+    <div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <div class="container-fluid">
+          <h1 class="mb-0">Ayesha 
+            <span class="text-primary">Binte Mostofa</span>
+          </h1>
+
+          <div class="subheading mb-5">
+            Learner · Researcher · Lecturer
+          </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="container-fluid">
+
+            <div class="col-lg-11 col-md-15 col-sm-20">
+              <p>
+                I'm Ayesha (she/her), a fresh graduate from the <a href="https://cse.buet.ac.bd" target="_blank">department of CSE, BUET</a>. Currently, I am working as a full-time lecturer in the department of CSE, 
+                <a href="https://www.cub.edu.bd/" target="_blank">Canadian University of Bangladesh</a>. 
+            </p>
+            <p>
+                I have a strong interest in the fields of <b>Natural Language Processing</b>, <b>Systems and Network Security.</b> Looking forward, I am also open to study more on <b>Computer Vision</b>, <b>Software Engineering</b> and <b>Robotics</b> as well. 
+                I love working on real world problems that have an impact, and obsess myself till I find a solution.<br><br>
+                <!-- Since my undergraduate education, I have been actively engaged in academic research. I have worked on several interdisciplinary research projects in the field of NLP, CV, Security and SWE, in collaboration with renowned professors.
+                 I also developed several Hardware projects using Arduino and ATmega32. 
+                 I love working on real world problems that have an impact, and obsess myself till I find a solution. I am a regular participant in machine learning competitions. -->
+                My undergraduate thesis focuses on prompting and fine-tuning <b>Large Language Models for Automating Code Review Activities</b>, under the guidance of 
+                Professor <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ&hl=en" target="_blank">Dr. Anindya Iqbal (BUET)</a>  
+                in collaboration with <a href="https://toufiqueparag.github.io/toufique.github.io/" target="_blank">Dr. Toufique Ahmed (UC Davis)</a> .
+                Currently, I am working on a research project on <b>detecting attack behaviors of DARPA TC E3 and DARPA OpTC Dataset using LLMs</b> under the supervision of Professor 
+                <a href="https://scholar.google.com/citations?user=y89HApwAAAAJ&hl=en" target="_blank">Dr. Md. Shohrab Hossain (BUET)</a> and <a href="https://scholar.google.ca/citations?user=cXS5b4sAAAAJ&hl=en" target="_blank">Dr. Shahrear Iqbal (National Research Council, Canada)</a>. 
+
+            </p>
+            <p>
+                In addition to my academic pursuits, I have a passion for music and can play three types of instruments. 
+                For recreation, I enjoy developing games, doodling, traveling, and watching sitcoms.
+                
+            </p>
+           
+                <p class="justify">
+                  Email me at : <a href="mailto:ayeshaathoi62@gmail.com" target="_blank"><b>ayeshaathoi62 [at] gmail [dot] com</a></b> 
+                </p>
+
+          </div>
+
+          <br><br><br>
+
+          <ul class="list-inline list-social-icons mb-0">
+            
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/ayesha-binte-mostofa/" target="_blank" aria-label="Linkedin">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i aria-hidden="true" title="Linkedin" class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/ayeshathoi" target="_blank" aria-label="Github">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i aria-hidden="true" title="Github" class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+
+
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCLj24fWiGPJxcV11Vq8fH4g" target="_blank" aria-label="youtube">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i aria-hidden="true" title="Youtube" class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+          <div class="container-fluid">
+            <h2 class="mb-5">Research Experience</h2>
+        </div>
+        <div class="container-fluid">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+            <h3 class="mb-0">Advancing Code Review and Code Refinement Automation
+              Using Large Language Models</h3>
+              <div class="flex-shrink-0"><span class="text-primary">July 2023 - Present</span>
+                
+              </div>
+            <div class="subheading mb-3">Supervisor: <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ&hl=en" target="_blank">Dr. Anindya Iqbal (Professor, CSE, BUET)</a> , <a href="https://toufiqueparag.github.io/toufique.github.io/" target="_blank">Dr. Toufique Ahmed (PostDoc, UC Davis)</a></div>
+            <p><b>Undergraduate Thesis, NLP Group, CSE-BUET</b></p>
+            
+            <p> We perform function call graph and code summary augmented few-shot prompting <br>
+              for closed-source LLMs (GPT-3.5 Turbo, GPT-4, GPT-4o and Gemini-1.0-Pro), and also  <br>
+              fine-tune open-source LLMs (Llama 2, Code Llama, Llama 3) with quantized low-rank  <br>
+              adaptation to improve the state-of-the-art performance of 
+              review comment and code refinement generation tasks, supported by a human evaluation study on CodeReviewer Dataset by Microsoft Research.
+
+            </p>
+            <p><b>Manuscript Under Preparation | <a href="https://www.researchgate.net/publication/382224024_Advancing_Automatic_Code_Review_and_Code_Refinement_Generation_Using_Large_Language_Models" target="_blank">Abstract</a></b></p>
+              </div>
+              <!-- a side picture add small -->
+              <div class="row-auto d-none d-lg-block container-fluid p-0">
+                <img src="img/Research/Thesis.png" class="bd-placeholder-img" width="90%" height="300px" 
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="float: right;" />  
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+            <h3 class="mb-0">Detecting Attack Behavior in Computer Logs</h3>
+              <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
+            <div class="subheading mb-3">Supervisor: <a href="https://scholar.google.com/citations?user=y89HApwAAAAJ&hl=en" target="_blank">Dr. Md. Shohrab Hossain (Professor, CSE, BUET)</a>, <br> <a href="https://scholar.google.ca/citations?user=cXS5b4sAAAAJ&hl=en" target="_blank">Dr. Shahrear Iqbal (National Research Council, Canada)</a></div>
+            <p><b>Ongoing Research Project, NLP X Computer Security</b></p>
+            <p> Working on detecting attack behaviors whether benign or malicious, analyzing raw log data from the DARPA OPTC and DARPA TC E3 datasets using postgresql sql files, <br> with the help of provenance graphs. We are using various LLM models to generate attack behaviors from the raw log data. </p>
+              </div>
+              <!-- a side picture add small -->
+              <div class="row-auto d-none d-lg-block container-fluid p-0">
+                <img src="img/Research/security.png" class="bd-placeholder-img" width="82%" height="300px" 
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="float: right;" />  
+        </div>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
 
-      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+            <h3 class="mb-0">Low Resource 2D Image Style Transfer</h3>
+              <div class="flex-shrink-0"><span class="text-primary">January 2024 - Present</span></div>
+            <div class="subheading mb-3">Supervisor: <a href="https://scholar.google.com/citations?user=Pwsti-YAAAAJ&hl=en" target="_blank">Sheikh Azizul Hakim (Lecturer, CSE, BUET)</a></div>
+            <p><b>Ongoing Research Project, Field : Computer Vision</b></p>
+            <p>We generate a new image by combining the content of one image with the <br> style of another image while optimizing for minimal computational resource usage. We utilized <b>Neural style transfer models : VGG16 and ResNet-50 and GAN model : CycleGAN. </b> <br>
+              With the help of these models, we are able to turn any picture into a painting of any famous artist. Paintings by Monet (Giverny in springtime), Pissarro <br> (Chestnut trees, Louveciennes, Spring - 1870), and Van Gogh(Starry Night) are used for result picture in the right side. Now, we are trying to transfer the style of calligraphy to a normal image. 
+            </p>
+              </div>
+              <!-- a side picture add small -->
+              <div class="row-auto d-none d-lg-block container-fluid p-0">
+                <img src="img/projects/ML_Project.png" class="bd-placeholder-img" width="90%" height="300px" 
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="float: right;" />  
+        </div>
+        </div>
 
-      <div class="separator"></div>
-      <div class="info-content" >
-        <button class="form-btn" type="submit" data-form-btn onclick="window.open('./files/Academic_Resume_Ayesha.pdf', '_blank')" style="margin: auto;">
-          <ion-icon name="document-text-outline"></ion-icon>
-          <span>Academic CV</span>
-        </button>
-      </div>
+
+      </section>
+
       
-      <div class="sidebar-info_more">
+    </section>
 
-        <div class="separator"><!--separator-->></div>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
 
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/ayesha-binte-mostofa/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+      <div class="container-fluid">
+        <ul class="mb-0 p-2 p-lg-2" type="1">
+          <div class="container">
+            <div class="my-auto">
+              <h2 class="mb-5">NOTABLE Projects</h2>
+          </div>
+            <div class="row">
 
-          <li class="social-item">
-            <a href="https://github.com/ayeshathoi" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
+              <div class="col-md-6 my-auto">
+                <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+                    <div class="row-auto d-none d-lg-block container-fluid p-0">
+                      <img height="240px" src="img/Research/gwl.png" class="bd-placeholder-img" width="100%" height="170px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> 
+                    </div>
+                    <div class="row p-4 m-1 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Machine Learning X HCI</strong>
+                      <h4 class="mb-0">Ground Water Level Prediction</h4>
+                      <div class="mb-1 text-muted">Python,seaborn, scipy numPy, Pandas</div>
+                      <p class="card-text mb-auto">
+                        At first, we preprocess the data, then used many types of regression models to predict the ground level water in different regions of Bangladesh to install deep tube wells.
+                        For seasonal forecasting, we are using ARIMA, LSTM and GRU models. 
+                        <br>
+                        It is a funded research project by <a href="https://warpo.gov.bd/" target="_blank">WARPO (Water Resources Planning Organization)</a> under the Ministry of Water Resources, Government of Bangladesh. <br>
+                        Supervisor: <a href="https://scholar.google.com/citations?user=K-AIPzQAAAAJ&hl=en" target="_blank"> Dr. A. B. M. Alim Al Islam (Professor, CSE, BUET)</a>
+                        <br><br>
+                        </p>
+                      
+                      <a href="https://github.com/ayeshathoi/Forecasting-Ground-Level-Water/" target="_blank">All Code</a>
+                  </div>
+              </div>
+            </div>
 
-          <li class="social-item">
-            <a href="https://www.youtube.com/channel/UCLj24fWiGPJxcV11Vq8fH4g" target="_blank" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="mailto:ayeshaathoi62@gmail.com" class="contact-link"target="_blank" class="social-link">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-        </ul>
+
+            <div class="col-md-6 my-auto">
+              <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+                  <div class="row-auto d-none d-lg-block container-fluid p-0">
+                    <img height="240px" src="img/projects/dlEnigma.png" class="bd-placeholder-img" width="100%" height="170px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> 
+                  </div>
+                  <div class="row p-4 m-1 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">SUST Deep Learning Enigma : Computer Vision</strong>
+                    <h4 class="mb-0">Vehicle Object Detection in context of BD traffic</h4>
+                    <div><a href="https://www.kaggle.com/competitions/dl-enigma-10-sust-cse-carnival-2024/leaderboard?tab=public">SUST DLENIGMA 1.0 Finalists</a></div> <br>
+                    <p class="card-text mb-auto">
+                      We address complex task of object detection in driving environments across 9 districts in Bangladesh using <a href="https://arxiv.org/pdf/2401.10659" target="_blank">BadODD</a> dataset. This dataset contains 9825 images with 78,943 Objects with 13 different classes.
+                      We employed <b>transfer learning</b> using three different approaches, such as : YOLOv6 and YOLOv8,
+                      Novel transformer-based models such as rtDETR and CoDETR. We also explored Faster R-CNN.<br>
+                      It was a part of a competition, where we secured 8th position among around 100 teams. 
+                      <br><br>
+                      </p> 
+                    
+                    <a href="https://github.com/ayeshathoi/Forecasting-Ground-Level-Water/" target="_blank">All Code</a>
+                </div>
+            </div>
+          </div>
+  
+            <div class="col-md-6 my-auto">
+              <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+                  <div class="row-auto d-none d-lg-block container-fluid p-0">
+                    <img height="240px" src="img/projects/FNN.png" class="bd-placeholder-img" width="100%" height="170px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> 
+                  </div>
+                  <div class="row p-4 m-1 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">Machine Learning Sessional</strong>
+                    <h4 class="mb-0">ML Algorithms || FNN || PCA and EM</h4>
+                    <div class="mb-1 text-muted">Python, numPy, Pandas</div>
+                    <p class="card-text mb-auto">
+                      1. Implemented matrix transformation, eigen-value decomposition, image reconstruction using singular value decomposition. <br>
+                      2. Implemented adaboost algorithm with logistic regression on three classfication datasets with exploratory data analysis and preprocessing techniques. <br>
+                      3. <b>Implemeted FNN from scratch </b> | Relu, Softmax, tanh Activation | Dropout Layer | L1, L2, Binary Cross Entropy Loss | <a href="https://github.com/ayeshathoi/Machine-Learning-472/blob/main/ML%20offline%203/report_1805062.pdf" target="_blank">Report</a><br>
+                      4. Implemented PCA & clustering with EM algorithm on gaussian mixture models from scratch.	
+                      <br><br>
+                      </p>
+                    
+                    <a href="https://github.com/ayeshathoi/Machine-Learning-472" target="_blank">All Code</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 my-auto">
+            <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+                <div class="row-auto d-none d-lg-block container-fluid p-0">
+                    <img src="img/projects/AI.jpg" class="bd-placeholder-img" width="100%" height="280px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+                </div>
+                <div class="row p-4 m-1 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Artificial Intelligence</strong>
+                  <h3 class="mb-0">Intelligent Solvers for Puzzles</h3>
+                  <div class="mb-1 text-muted">A*, Value Ordering , Local Search , Inference </div>
+                  <p class="card-text mb-auto">
+                    1. N-Puzzle Solver: Implemented <b>A* heuristic </b> (Hamming Distance, Manhattan Distance) <br>
+                    2. Latin Square Solver: Implemented csp value ordering (Forward Checking, Simple Backtracking) |  <a href="https://github.com/ayeshathoi/Artificial-Intelligence-Sessional-318/blob/main/LATIN%20SQUARE/1805062_report.pdf" target="_blank">Report</a><br> 
+                    3. Exam Scheduling: Used local search (Largest Enrollment, Saturation Degree - DSatur Algo, Largest Degree, Random Ordering, Kempe-Chain, Pair-Swap) | <a href="https://github.com/ayeshathoi/Artificial-Intelligence-Sessional-318/blob/main/ExamScheduling_LocalSearch/1805062_Report.pdf" target="_blank">Report</a><br>
+                    4. Minesweeper Solver: Utilized inference techniques (Implemented Random Moves, Safe moves, Discarded Diagonal Cells as neighbours) <br>
+                    </p>
+                  <a href="https://github.com/ayeshathoi/Artificial-Intelligence-Sessional-318/tree/main" target="_blank">Code</a>
+              </div>
+          </div>
+      </div>
+
+    <div class="col-md-6 my-auto">
+      <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+
+          <div class="row-auto d-none d-lg-block container-fluid p-0">
+            <img src="img/projects/archi.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+          </div>
+
+          <div class="row p-4 m-1 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Computer Architecture</strong>
+              <h3 class="mb-0">Hardware | 8086 Assembly | Microprocessor | Logisim </h3>
+              <div class="mb-1 text-muted">Register, Atmega32, LCD, LED, Breadboard, C++, 8086 Assembly</div> 
+              <p class="card-text mb-auto">
+                <br>
+                1. Implemented 4-bit Arithmetic logic unit (ALU) with LED and ATmega32 desgining the soft circuit in Logisim | Flags : Carry, Sign, Overflow, Zero flags | Operation : Add, Add with carry, AND, Transter A, Increment A, XOR | <a href="https://github.com/ayeshathoi/CSE-306/blob/main/Assignment%201/4%20bit%20ALU%20circuit%20diagram.png" target="_blank">Soft Circuit Diagram</a> | <a href="https://github.com/ayeshathoi/CSE-306/blob/main/Assignment%201/archi.png" target="_blank">Hardware Diagram</a> <br>
+                2. Implemented 32-bits Floating Point Arithmetic Unit (FPU) with ATmega32 and Logisim | 1 Sign bit, 10 exponent bits, 21 Fraction bits (Lowest bits) | The numbers are in normalized form. There are two flags U (underflow) and O (overflow) which are set if the result is too small or too large to be represented in the format | <a href="https://github.com/ayeshathoi/CSE-306/blob/main/Assignment%202/FPA%20Report.pdf" target="_blank">Report</a> | <a href="https://github.com/ayeshathoi/CSE-306/blob/main/Assignment%202/FPA_Flowchart.pdf" target="_blank">Flowchart</a> <br>
+                3. Implemented a 4-bit MIPS Processor : Arithmetic Logic Unit (ALU), Control Unit and Datapath. For the simulation, we have used 1-RAM, 2-ROMs, 2-Shifters and 3-ALUs but in hardware implementation, we have used ATMega32 since we can program ATMega32 to add, subtract and store data | <a href="https://github.com/ayeshathoi/CSE-306/blob/main/Assignment%203/B1_Group1_Report.pdf" target="_blank">Report</a> | <a href="https://github.com/ayeshathoi/CSE-306/tree/main/Assignment%203/B1-G1-MIPS" target="_blank">Codes</a><br>
+          </div>
+      </div>
+  </div> 
+
+  <div class="col-md-6 my-auto">
+    <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+
+        <div class="row-auto d-none d-lg-block container-fluid p-0">
+          <iframe width=100% height="240" src="https://www.youtube.com/embed/Gx7eTR-YP74?si=htt10fMMFv4lQ_S5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <!-- <img src="img\projects\Covid.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> -->
+        </div>
+
+        <div class="row p-4 m-1 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-3 text-primary">Microprocessors, Microcontrollers & Embedded Systems</strong>
+            <h4 class="mb-0">8086 Assembly | Microprocessor | Health Monitoring System</h4>
+            <div class="mb-1 text-muted">Arduino, GSM Module, Pulse Oximeter & DHT11 | Atmega32, LCD, Bicolor LED, Breadboard | Proteus</div>
+            <p class="card-text mb-auto">
+              1. Implemented assembly language programs including addition, subtraction, multiplication, division, and string operations. <br>
+              2. Implemented microprocessor-based projects using Atmega32 : <br> a) Use of Polling for Digital IO. <br>  b) Basic Bicolor LED matrix control with ATmega32: static, flash, and rotating display, <br> c) ADC and LCD module with ATmega32 | <a href="https://youtu.be/TxP47Wh3xPo" target="_blank">Youtube Video</a> <br>
+              3. Developed a Health Monitoring System using Arduino, pulse-oxymeter, DHT11 and GSM Module for covid patients. <br>
+              4. Proteus Simulation for designing circuits with various tools. <br>
+              <a href="https://github.com/ayeshathoi/CSE-316/tree/main" target="_blank">Assembly and MicroController</a> |
+              <a href="https://github.com/ayeshathoi/CSE-315-Practice-codes" target="_blank">Proteus Simulation Code</a>  
+            <a href="https://github.com/ayeshathoi/CSE-316-Project-Health-Monitoring-System" target="_blank">Health Monitoring Project Code</a> | 
+            <a href="https://github.com/ayeshathoi/Health-Monitoring-System/blob/main/Project%20Report%20-%20Health%20Monitoring%20System%20(%2062%2C71%2C81).pdf" target="_blank">Report</a>
+        </div>
+    </div>
+</div> 
+
+        <div class="col-md-6 my-auto">
+          <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+  
+              <div class="row-auto d-none d-lg-block container-fluid p-0">
+                  <img src="img\projects\xv6.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+              </div>
+  
+              <div class="row p-4 m-1 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Operating Systems</strong>
+                  <h3 class="mb-0">Implementing an OS || IPC </h3>
+                  <div class="mb-1 text-muted">xv6 Operating System, Bash, C++</div>
+                  <p class="card-text mb-auto">
+                    1. Explored bash scripting <br>
+                    2. Implemented synchronization using pthreads : <br> Barber Shop, Master Worker, Read-Write Lock, Zemaphore <br>
+                    3. Implemented custom system calls : Trace & System Info to incorporate command line functionalities and lottery scheduling algorithm into existing xv6 pedagogical operating system. <br>
+                    4. Implemented copy-on-write paging mechanism for xv6 memory management. <br>
+                    5. Documented Git Commands. <br>
+  
+                  <a href="https://github.com/ayeshathoi/OS-314" target="_blank">All Code</a> <br>
+              </div>
+          </div>
+      </div> 
 
 
-        <div class="separator"></div>
+  
+      <div class="col-md-6 my-auto">
+        <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+  
+            <div class="row-auto d-none d-lg-block container-fluid p-0">
+                <img src="img\projects\compiler.png" class="bd-placeholder-img" width="100%" height="220px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+            </div>
+  
+            <div class="row p-4 m-1 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Compiler</strong>
+                <h3 class="mb-0">A Simple Compiler</h3>
+                <div class="mb-1 text-muted">C++, YACC, Lex, 8086 Assembly, Bash</div>
+                <p class="card-text mb-auto">
+                  1. Symbol Table : Stored info of occurance of entities : identifiers, objects, function names etc in CPP. | <a href="https://github.com/ayeshathoi/Compiler-310/tree/main/Symbol%20Table" target="_blank">Code</a> <br>
+                  2. Lexical Analysis : Tokenized the input source code interacting with symbol-table. |  <a href="https://github.com/ayeshathoi/Compiler-310/tree/main/Lexer" target="_blank">Code</a><br>
+                  3. Syntax and Semantic Analysis : Constructed bottom-up parse tree by shifting and reducing the tokens generated by lexer in Bison and Yacc. | <a href="https://github.com/ayeshathoi/Compiler-310/tree/main/Bison" target="_blank">Code</a><br>
+                  4. Intermediate Code Generation : Generated intermediate assembly code from the previous offlines outputs for the input source code. | <a href="https://github.com/ayeshathoi/Compiler-310/tree/main/ICG" target="_blank">ICG</a> | <a href="https://github.com/ayeshathoi/Compiler-310/tree/main/ICG%20with%20optimizer" target="_blank">ICG with Optimization</a>
+            </div>
+        </div>
+    </div>
+              
+          <div class="col-md-6 my-auto">
+            <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+                <div class="row-auto d-none d-lg-block container-fluid p-0">
+                  <iframe width=100% height="250" src="https://www.youtube.com/embed/rYk8i8jIKjM?si=YlOKLxrsEsdjOfzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="img/projects/crypt.PNG" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> -->
+                </div>
+                <div class="row p-4 m-1 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Computer Security Sessional</strong>
+                  <h3 class="mb-0">Cryptography || Security Vulnerabilities || MISP</h3>
+                  <div class="mb-1 text-muted">Python, TCP Socket Programming, Docker, Azure</div>
+                  <p class="card-text mb-auto">
+                    1. Implement public key cryptography system, AES, with Diffie Hellman and RSA key exchange algorithms interconnected via client-server socket. <br>
+                    2. Explored pedagogical malware (virus and worm) functionalities within docker containers and demonstrate buffer overflow attacks. <br>
+                    3. Experiment with firewall configurations <br>
+                    4. Implemented and demonstrate the features of MISP, an open-source Threat-Intelligence Tool | <a href="https://github.com/ayeshathoi/Security-406/blob/main/MISP%20%3A%20Security%20Project/MISP_Security_Project_Report.pdf" target="_blank">MISP Report</a> <br>
+                    5. Implemented multi-modal Steganography and extracted hidden messages from stego objects | <a href="https://github.com/ayeshathoi/Multi-modal-Steganography" target="_blank">Steganography Code</a><br>
+                    </p>
         
-        <div class="separator"></div>
+                  <a href="https://github.com/ayeshathoi/Security-406/tree/main" target="_blank">All Code</a>
+              </div>
+          </div>
+        </div>
 
-        <ul class="contacts-list">
+        <div class="col-md-6 my-auto">
+          <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
 
-          <li class="contact-item">
+              <div class="row-auto d-none d-lg-block container-fluid p-0">
+                  <img src="img\projects\NS2.png" class="bd-placeholder-img" width="100%" height="250px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+              <div class="row p-4 m-1 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Computer Networks</strong>
+                  <h3 class="mb-0">TCP Cubic-Fit || VLAN & Network Simulation</h3>
+                  <div class="mb-1 text-muted">TCL, AWK, CPP</div>
+                  <p class="card-text mb-auto">
+                    1. setup Virtual Local Area Network (VLAN) using Cisco Packet Tracer and configure network components (Switch, Router, Trunk, NAT, PAT, ACL) | <a href="https://github.com/ayeshathoi/Computer-Networks-322/blob/main/Cisco%20Packet%20Tracer/Configuration/CHEATSHEET.pdf" target="_blank">CheatSheet</a><br>
+                    2. We also implement a simple multi-threaded file web server using Java socket programming.  <br>
+                    2. We then use Network Simulator 2 (NS2) to simulate wired and wireless network topologies with varying protocols across different network layers. <br>
+                    4. We experiment with WireShark to analyze network traffic. <br>
+                    5. Finally, we experiment with TCP Cubic-FIT simulation in NS2 and improved it || <a href="https://github.com/ayeshathoi/Computer-Networks-322/blob/main/Ns2%20Project%20CubicFit/Report.pdf" target="_blank">Report</a> | <a href="https://github.com/ayeshathoi/Computer-Networing-322/tree/main/Ns2%20Project%20CubicFit" target="_blank">Code</a> <br>
+                    <a href="https://github.com/ayeshathoi/Computer-Networks-322/tree/main" target="_blank">All Code</a>
+                  </div>
+          </div>
+      </div> 
+
+      <div class="col-md-6 my-auto">
+        <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+            <div class="row-auto d-none d-lg-block container-fluid p-0">
+              <iframe width=100% height="200" src="https://www.youtube.com/embed/R6fTu-nUbJQ?si=BPXpUzG73upZmkU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+              <!-- <img src="img/projects/output3.jpg" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> -->
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:ayeshaathoi62@gmail.com" class="contact-link">ayeshaathoi62@gmail.com</a>
+            <div class="row p-4 m-1 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-1 text-primary">Computer Graphics</strong>
+                <h4 class="mb-0">Ray Tracing & Raster based Pipeline || OpenGL Projects</h4>
+                <div class="mb-1 text-muted">OpenGL, C++</div>
+                <p class="card-text mb-auto">
+                  1. Ray Tracing: Implemented ray tracing for various shapes (cube, sphere, pyramids) with multiple perspectives and light sources, including a textured infinite checkerboard using a BMP file. <br>
+                  2. Raster-Based Pipelines: Developed a raster-based graphics pipeline in OpenGL covering transformations, clipping, scan conversion, and Z-buffer. <br>
+                  3. OpenGL Projects: Created projects such as an analog clock, transforming an octahedron into a sphere, and animating sphere and cube motions.
+                  </p>
+                <br>
+                <a href="https://github.com/ayeshathoi/Graphics-410/tree/main" target="_blank">Code</a>
             </div>
+        </div>
+    </div>
 
-          </li>
+    <div class="col-md-6 my-auto">
+      <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+          <div class="row-auto d-none d-lg-block container-fluid p-0">
+            <img src="img/projects/parkCar.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+          </div>
+          <div class="row p-4 m-1 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-1 text-primary">Information System Design</strong>
+              <h4 class="mb-0">ParkCar : Online Parking Management</h4>
+              <div class="mb-1 text-muted">Mobile Application, React Native, Node.js, Postgresql </div>
+              <p class="card-text mb-auto">
+               We developed a mobile application for parking management. The app allows users to book parking slots, pay for parking, and view parking history with various searching facilities. The app also includes a feature for parking lot owners to manage their parking lots and view parking history. <br>
+               We designed BPMN, Mock-UI, ERD, Class, Collaboration, Sequence and State Diagram. Later, we developed a one module of the project. We have deployed our Database & Server in Render.
+               <br>
+               <a href="https://github.com/ayeshathoi/ISD-326" target="_blank">Diagram</a> | 
+               <a href="https://github.com/ezmata-101/ParkCar-Server" target="_blank">Module Code</a>
+              </p>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+              
+              
+          </div>
+      </div>
+  </div>
+       
+      <div class="col-md-6 my-auto">
+                    <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+    
+                        <div class="row-auto d-none d-lg-block container-fluid p-0">
+                          <iframe width=100% height="200" src="https://www.youtube.com/embed/RWAkR-tGzPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          <!-- <img src="img\projects\ePathshala.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> -->
+                        </div>
+    
+                        <div class="row p-4 m-1 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Database Sessional Project</strong>
+                            <h3 class="mb-0">E-Pathsala : Online Educational Platform </h3>
+                            <div class="mb-1 text-muted">SpringBoot, Spring Security, OracleDB, JavaScript, Bootstrap</div>
+                            <p class="card-text mb-auto">
+                              An Online School inspired by Coursera as Covid hit the world. Here, 3 types of users can be created : Student, Teacher & Admin. The student can enroll themselves in different courses, test themselves through quizes. Teacher can create courses, add lessons, create quizes. Admin can manage all the users, courses, lessons, quizes.
+                              <br>
+                            <a href="https://github.com/ayeshathoi/Project-EpathShala" target="_blank">Code</a> <br>
+                            <a href="https://github.com/ayeshathoi/Project-EpathShala/blob/main/E_PATHSHALA_ERD%20DIAGRAM.pdf" target="_blank">ERD</a>
+                        </div>
+                    </div>
+                </div> 
+    
+                <div class="col-md-6 my-auto">
+                  <div class="row no-gutters border rounded flex-md-row mb-4 shadow-sm position-relative project">
+    
+                      <div class="row-auto d-none d-lg-block container-fluid p-0">
+                        <iframe width=100% height="200" src="https://www.youtube.com/embed/JaeOwC56HI4?si=8rnAu9lsoHyq1LYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                        <!-- <img src="img\projects\yourDoctor.png" class="bd-placeholder-img" width="100%" height="200px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" /> -->
+                      </div>
+    
+                      <div class="row p-4 m-1 d-flex flex-column position-static">
+                          <strong class="d-inline-block mb-2 text-primary">Software Engineering Project</strong>
+                          <h3 class="mb-0">Your Doctor : Online Hospital Management</h3>
+                          <div class="mb-1 text-muted">Node.js, React.Js, PostgresDB</div>
+                          <p class="card-text mb-auto">
+                            An Online platform where a patient can book appointment with doctors, order ambulances and check health by nurses.
+                            Chatting service with doctors or nurse is also included. History will be saved and patient rate the services. And a hospital can see the rating and appoint nurse for the checkup. Online transaction facility is also included.<br>
+                          <a href="https://github.com/ayeshathoi/yourDoctor-408-Sessional" target="_blank">Code</a> <br>
+                          <a href="https://github.com/ayeshathoi/yourDoctor-408-Sessional/blob/main/Resources/2.%20yourDoctor%20Mock%20UI.pdf" target="_blank">Mock UI (Full Demo Look) </a>
+                      </div>
+                  </div>
+              </div> 
+                    </div>
+                  </div>
+                </ul>
+              </div>
             </div>
+          </section>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Dhaka, Bangladesh</address>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <div class="container-fluid">
+            <h2 class="mb-5">Education</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><a href="https://www.buet.ac.bd/" target="_blank">Bangladesh University of Engineering and Technology</a></h3>
+                    <div class="subheading mb-3">B.Sc.Engg. in Computer Science and Engineering</div>
+                    <b>
+                      <p>CGPA : 3.63/4.00 </p>
+                      <p>Last 2 year CGPA : 3.86/4.00</p>
+                      <p><b>Undergraduate Lab Courseworks : </b> <a href="ugrad.html" target="_blank">Webpage</a> </p>
+                      <p>Institutional Mail : 1805062@ugrad.cse.buet.ac.bd </p>
+                      <p>- Dean’s list award and university merit scholarship recipient in levels 3 and 4</p>
+                    </b>
+                   
+                    <p><b>Notable Courses : </b>Machine Learning, Simulation and Modeling, Graph Theory, Artificial Intelligence, Bioinformatics, Software Engineering, Information System Design,
+                      Computer Security, Operating Systems, Compiler, Computer Networks, Data Structures and Algorithms, Database
+                      Systems, Computer Graphics, Discrete Mathematics, Object Oriented Programming</p>
+                      
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">2019-2024</span></div>
             </div>
-
-          </li>
-
-        </ul>
-
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><a href="https://fgcc.army.mil.bd/" target="_blank">Feni Girls' Cadet College</a></h3>
+                    <div class="subheading mb-3">Higher Secondary Certificate</div>
+                    <p>GPA: 5.00/5.00</p>    
+                    <p>Group : Science</p>  
+                    <b>
+                    <p>Talent Pool Scholarship, 5th place holder (1st among girls) in Comilla board</p> 
+                    <p>Awards : Best in Academics award, Best Journal award, 1st Runner-up in Intra College Math Olympiad</p> 
+                  </b>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">2016-2018</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0"><a href="https://fgcc.army.mil.bd/" target="_blank">Feni Girls' Cadet College</a></h3>
+                    <div class="subheading mb-3">Secondary School Certificate</div>
+                    <p>GPA: 5.00/5.00</p>
+                    <p>Group : Science</p>
+                    <b>
+                    <p>Talent Pool Scholarship, 8th position holder in Comilla board</p>
+                    <p>Activities : Music, Chess, Handball, Band Party Drummer, Current Affairs Display Performer, Class Captain </p>
+                    </b>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">2014-2016</span></div>
+            </div>
+        </div>
       </div>
 
-    </aside>
+        
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skill">
+  <div class="my-auto">
+    <div class="container-fluid">
+      
+      <div class="container-fluid">
+        <h2 class="mb-5">Skills</h2>
+        <table class="table table-bordered">
+          <tr>
+              <td>Languages</td>
+              <td>C, C++, Java, JavaScript, Python, SQL, Assembly 8086, Bash, Latex, HTML, CSS</td>
+          </tr>
+          <tr>
+            <td>Database</td>
+            <td>MySQL, OracleDB, PostgresDB</td>
+          </tr>
+          <tr>
+              <td>Frameworks</td>
+              <td>PyTorch, Keras, Tensorflow, SpringBoot, Node.JS, React.Js, BootStrap</td>
+          </tr>
+          <tr>
+              <td>Libraries</td>
+              <td>NumPy, Keras, Matplotlib, OpenCV, Pandas, Scikit Learn etc.</td>
+          </tr>
+          <tr>
+            <td>API</td>
+            <td>REST, OpenGL</td>
+          </tr>
+          <tr>
+            <td>Platform</td>
+            <td>Windows, Ubuntu</td>
+          </tr>
+          <tr>
+              <td>User Research</td>
+              <td> Interview, Survey, Field study</td>
+          </tr>
+          <tr>
+            <td>Research Methods</td>
+            <td>Mixed-method, Experiment, Data Scraping</td>
+          </tr>
+          <tr>
+            <td>Communication Medium</td>
+            <td>English (Professional), Bengali (Native), Hindi (Professional), German (Intermediate) </td>
+          </tr>
+          <tr>
+            <td>Tools/Software</td>
+            <td>Git, GitHub, Docker, render, IntelliJ, PyCharm, Codeblocks, Navicat, Visual Studio, WireShark, emu 8086, Jupyter Notebook, NS2, Google Colab, Kaggle, Logisim, Proteus</td>
+        </tr>
+      </table>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+  <div class="my-auto">
+    <div class="container-fluid">
+      <h2 class="mb-5">Work Experience</h2>
+      <div class="my-auto">
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Full-time Lecturer</h3>
+                <div class="subheading mb-3"><a href="https://www.cub.edu.bd/" target="_blank">Canadian University of Bangladesh</a></div>
+                <p> Joined CSE department under School of Science & Engineering. I find it a noble profession as it gives an opportunity to shape the life of others and pursue one’s passion for a lifetime. I love to interact and connect with my students. </p>
+                <b> Courses Teaching, Summer 2024 : </b> <br>
+
+                  CSE-3303 : Computer Graphics (Theory and Lab), CSE-2201 : Numerical Analysis <br>
+                  CSE-1101 : Structured Programming Language (Theory and Lab) <br>
+                
+                  <b>Email</b> : <a href="mailto:ayesha.binte@cub.edu.bd">ayesha.binte@cub.edu.bd</a> | 
+                  <a href="https://www.facebook.com/photo.php?fbid=931699158999215&set=pb.100064774176404.-2207520000&type=3" target="_blank">Welcome Post</a>
+                  
+              
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">July 2024 - Present</span></div>
+        </div>
+    </div>
+      <div class="my-auto">
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Machine Learning Intern</h3>
+                <div class="subheading mb-3">eSRD-Lab and Red.Digital LIMITED Virtual Training Program</div>
+                <p>Contributed to developing an Android App for Client-side verification of National ID Card images, using Android Studio, openCV and TensorflowLite. </p>
+                <p><a href="files/Certificates/Internship certificates.pdf">Certificates</a>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">May 2023-June 2023</span></div>
+        </div>
+    </div>  
+</section>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="scholarship">
+  <div class="my-auto">
+    <div class="container-fluid">
+      
+      <ul class="mb-0" type="1">
+        <h2 class="mb-5">Achievements</h2>
+        <li>
+          <p>
+          <div class="subheading mb-3">Dean's List Award, 2022 - 2024</div>
+          Achieved scholarship in level 3 and 4 for extraordinary results, See <a href="https://cse.buet.ac.bd/studies/fund" target="_blank">Details</a> <br>
+          <!-- Level 3 : 3.77/4.00 | Level 3, Term 1 : 3.75/4.00 | Level 3, Term 2 : 3.79/4.00 <br>
+          Level 4 : 3.96/4.00 | Level 4, Term 1 : 3.91/4.00 | Level 4, Term 2 : 4.00/4.00 -->
+          </p>
+        </li>
+        <li>
+          <p>
+          <div class="subheading mb-3">SUST DEEP LEARNING ENIGMA 1.0 Finalists, 2024</div>
+          "BUET Weights & Biases" became 8th out of 98 teams in the final round of the competition, See
+          <a href="https://www.kaggle.com/competitions/dl-enigma-10-sust-cse-carnival-2024/leaderboard?tab=public" target="_blank">leaderboard</a>
+          </p>
+        </li>
+        <li>
+          <p>
+          <div class="subheading mb-3">NSysS Research Poster Presentation, December 2023</div>
+          <a href="files/posters/NSysS_Student_Poster_LLM_Thesis.pdf" target="_blank">Poster</a> of my LLM thesis in the conference, <a href="https://cse.buet.ac.bd/nsyss2023/" target="_blank">Venue</a>
+          </p>
+        </li>
+        <li>
+          <p>
+          <div class="subheading mb-3">RISE-BUET Internal Student Research Grant, November 2023</div>
+          Awarded with <a href="files/Certificates/Grant.pdf">grant</a> for undergraduate thesis project, <a href="https://www.buet.ac.bd/web/#/details/117" target="_blank">Details</a>
+          </p>
+        </li>
+        
+        <li>
+          <p>
+          <div class="subheading mb-3">Scholarships, 2014-2024 </div>
+          Talentpool Scholarship, HSC 2018, 5th place holder (1st among girls) in Comilla Board, See 
+          <a href="files/Certificates/HSC-Stipend.pdf" target="_blank"> Details</a> <br>
+          Talentpool Scholarship, SSC 2016, 8th place holder in Comilla Board, See 
+          <a href="files/Certificates/SSC-Stipend.pdf" target="_blank"> Details</a> <br>
+          General Scholarship, JSC 2013, Comilla Board.
+          </p>
+        </li>
+
+        <li>
+          <p>
+          <div class="subheading mb-3">College-Level Achievements </div>
+
+          Selected in ISSB Long Course-80 (Bangladesh Army), 2018 <br>
+          "Best in Academics" award, 2017 <br>
+          "Best Journal" Award, International Mother Language Day, 2017 <br>
+          1st Runnerup, Inter College Math Olympiad, 2017 <br>
+          </p>
+        </li>
+      
+    </div>
+  </div>
+</section>
+
+
+      
+
+     
 
 
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="leadership">
+        <div class="my-auto">
+          <div class="container-fluid">
+            
+            <div class="container-fluid">
+              <h2 class="mb-5">Leadership Activities</h2>
+              <div class="subheading mb-3">Club Affliation</div>
+                <p>
+                  <b>IEEE Computer Society BUET Student Branch Chapter [2021-2023]</b>
+                  <br>
+                  Publicity Committee Co-ordinator : 2022-2023 ; Media Committee Executive : 2021-2022 <br>
+                  - Helped organizing competitions, career talks, research seminars and software development workshops <br>
+                  - Check out all of our events <a href="https://www.facebook.com/ieeebuetcs/events/" target="_blank">here</a>.
+                </p>
+              <br> <br>
+              
+
+              <div class="subheading mb-3">Volunteer Works</div>
+                <p>
+                  <b>Online Class Recording Management [2020-2024]</b> <br>
+                  - maintained all recordings for my classmates in my youtube channel from the covid.<br>
+                  - Check out <a href="https://www.youtube.com/channel/UCLj24fWiGPJxcV11Vq8fH4g" target="_blank">my Youtube Channel</a>, although the playlists are unlisted.
+                </p>
+     
+                <br>
+                
+              <b>Student Tutor [2019-2021]</b>
+                <p>
+                  - Tutored many students ranging from high-school to college-level 
+                    during my undergrad years. 
+                  <br>
+                </p>
+                <br><br>
+
+                <div class="subheading mb-3">BD Army Commissioned Officer Selection Exam</div>
+                <p>
+                  <b>ISSB Long Course-80 [2018]</b> <br><br>
+                  - <a href="files/Certificates/ISSB TEST Result.pdf">Yellow Card Holder</a>, selected for Bangladesh Army Commissioned Officer Rank <br>
+                  - Medical Test : Passed <br><br>
+                  <a href="https://issb-bd.org/page/1/19/" target="_blank">4 Day Long Test</a> : <br>
+                  Day 1 : Intelligence Test, Picture Perception and Description Test, Personality Test, Essay Writing (Bangla, English), Medical Test <br>
+                  Day 2 : Group Discussion 1, Progressive Group Task, Half Group Task, Extempore Speech, Physical Ability Test, Interview <br>
+                  Day 3 : Planning Exercise (Written & Discussion), Command Tasks, Mutual Assessment, Interview <br>
+                  Day 4 : Assessment conference, Announcement of final results and Final Briefing<br>
+                  
+                </b>
+                  <br>
+                </p>
+
+                <br><br>
+              </div>
+          </div>     
+        </div>
+      </div>
+    </section>    
+
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="resume">
+      <div class="my-auto">
+        
+        
+        <div class="container-fluid">
+          <h2 class="mb-5">Resume</h2>
+          <p class="justify">
+            <b><a href="files/Resume/Academic_Resume_24.pdf" target="_blank">Click here to get my updated Resume</a></b>.
+          </p>
+          </div>
+          </div>
+          </section> -->
 
 
-    <!--
-      - #main-content
-    -->
+       
 
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <!-- <li class="navbar-item"> 
-            <button class="navbar-link" data-nav-link>Leadership</button>
-          </li> -->
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <!--
-        - #RESUME
-      -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="gallery">
+        <div class="my-auto">
+          
+          
+          <div class="container-fluid">
+            <h2 class="mb-5">Personal Interests</h2>
+            <div class="subheading mb-3 text-primary">Game Development</div>
+            	<p class="justify">
+                I love to develop games as I like to play games. I have developed some games using CPP, Pygame & JavaFX.
+              </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  
+                  <a href="https://github.com/ayeshathoi/Bored-Zelda" target="_blank">
+                    <img class="img-fluid" src="img/PI/Game Development/Zelda.png" >
+                    <!-- Caption under the image -->
+                    <h6>Zelda Code</h6>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  
+                  <a href="https://github.com/ayeshathoi/spaceWars" target="_blank">
+                    <img class="img-fluid" src="img/PI/Game Development/spacewars.png" >
+                    <!-- Caption under the image -->
+                    <h6>Space Wars Code</h6>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="https://github.com/ayeshathoi/Easy-Games/tree/main/TicTacToe" target="_blank">
+                    <img class="img-fluid" src="img/PI/Game Development/TicTacToe.png" >
+                    <h6>TicTacToe Code</h6>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="https://github.com/ayeshathoi/Easy-Games/tree/main/Snake" target="_blank">
+                    <img class="img-fluid" src="img/PI/Game Development/snake.png" >
+                    <h6>RetroSnake Code</h6>
+                  </a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="https://github.com/ayeshathoi/AngryBird-TermProject" target="_blank">
+                    <img class="img-fluid" src="img/PI/Game Development/angry.jpg" >
+                    <h6>Angry Bird 2D (IGraphics)</h6>
+                  </a>
+                </div>
+            </div>
 
 
-      <article class="about active" data-page="about">
-        <div id="about" class="load" onclick="loadPage('#loadabout', 'pages/about.html')"> </div>
-        <div id="loadabout"> </div>
-      </article>
+            <!-- Space between line -->
+            
+            <br><br>
+               
+            <div class="subheading mb-3 text-primary">Music</div>
+            	<p class="justify">
+                I sing <b>Tagore Song</b>. I have developed a great passion for music from childhood. I can play <b>harmonium, keyboard and kalimba</b>. I have performed in various cultural programs.
+                You can visit my <b><a href="https://www.youtube.com/playlist?list=PLh5_wktv4jtzmb4_urdpsycVHxDzGcp9Z">music playlist</a></b> for more.
+              </p>
+                <div class="row">
+                 
+                  <div class="col-lg-4">
+                    <iframe width="300" height="315" src="https://www.youtube.com/embed/Urof5asL5n0?si=nnHXVxgDbVIJh9Wr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-lg-4">
+                    <iframe width="300" height="315" src="https://www.youtube.com/embed/x6-IyCSITwA?si=e3yRO09ZD_hY6xrK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </a>
+                  </div>
+                  <div class="col-lg-4">
+                    <iframe width="300" height="315" src="https://www.youtube.com/embed/j6xl73TRvxo?si=gwJJEYyxfsz5vx4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <br><br>
 
-      <article class="resume" data-page="resume">
-        <div id="resume" class="load" onclick="loadPage('#loadresume', 'pages/resume.html')"> </div>
-        <div id="loadresume"> </div>
-      </article>
+
+              <div class="subheading mb-3 text-primary">Writing & Drawing</div>
+
+                <p>
+                Apart from music, I love <b>writing journals and stories</b>. One of my Bangla journals <b>got prize in 2017</b> on the occation of "International Mother Language Day".	
+                <br>
+                
+                I also love <b>doodling</b>, <b>drawing</b>, <b>photoshop</b> & <b>adobe illustration</b>.
+              </p>
+              
+              
+            <div class="row" align="center">
+                
+
+                <div class="col-lg-2">
+                  <a href="https://drive.google.com/file/d/1yKk2vU6xeZ-jqIzu63R1tTNqYjCL0vdn/view?usp=sharing" target="_blank">
+                    <img class="img-fluid" src="img/PI/essay.png" >
+                    <h6>Journal Link</h6>
+                  </a>
+                </div>
+
+                <div class="col-lg-2">
+                      <img class="img-fluid" src="img/PI/Digital Art & Pencil Sketch/doodle1.jpg" >
+                      <h6>Doodle</h6>
+                </div>
+                <div class="col-lg-2">
+                  <img class="img-fluid" src="img/PI/Digital Art & Pencil Sketch/deathnote.jpg" >
+                  <h6>Sketch</h6>
+                </div>
+                <div class="col-lg-2">
+                  <img class="img-fluid" src="img/PI/Digital Art & Pencil Sketch/photoshop.jpg" >
+                  <h6>Photoshop</h6>
+                </div>
+                <div class="col-lg-2">
+                  <img class="img-fluid" src="img/PI/Digital Art & Pencil Sketch/adobe.jpg" >
+                  <h6>Adobe Illustration</h6>
+                </div>   
+            </div>
+            <br><br>
+            <hr>
+            <br><br>
+           
+
+        </div>
+        
+      </section>
       
 
 
-      <!--
-        - #BLOG
-      -->
 
-      <article class="blog" data-page="research">
-        <div class="load" onclick="loadPage('#loadblog', 'pages/research.html')"> </div>
-        <div id="loadblog"> </div>
-      </article>
-      
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projects">
-        <div class="load" onclick="loadPage('#loadportfolio', 'pages/projects.html')"> </div>
-        <div id="loadportfolio"> </div>
-      </article>
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-        <div class="load" onclick="loadPage('#loadcontact', 'pages/contact.html')"> </div>
-        <div id="loadcontact"> </div>
-      </article>
 
     </div>
 
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-
-</body>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/resume.js"></script>
+    <script src="vendor/typed/typed.js"></script>
+    <script>
+      var icon = document.getElementById("icon"); 
+      icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+          icon.src = "icons/sun.png";
+        }else{
+          icon.src = "icons/moons.png";
+        }
+      }
+    </script>
+  </body>
 
 </html>
