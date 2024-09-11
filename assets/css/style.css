@@ -1961,35 +1961,25 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-
-.resume-item a {
-  display: block;
-  color: white; /* Set text color to white */
-  text-decoration: none; /* Remove underline from links */
-  padding: 10px; /* Optional: Add some padding for better appearance */
-}
-
-.resume-item a:hover {
-  background-color: #7ba387; /* Optional: Add a background color on hover */
-}
-
-
 .resume-lists ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex; /* Use flexbox to align items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  color: white; /* Set text color to white */
 }
 
 .resume-lists li {
-  margin-right: 20px; /* Adjust the spacing between items as needed */
+  margin-right: 5px; /* Adjust the spacing between items as needed */
 }
 
 .resume-lists li:last-child {
   margin-right: 0; /* Remove margin from the last item */
 }
 
-.resume-lists a {
+.resume-item a {
+  color: white; /* Set text color to white */
   text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Use the text color of the parent element */
+  padding: 10px; /* Optional: Add some padding for better appearance */
 }
