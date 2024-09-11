@@ -1,294 +1,254 @@
-<div>
-  <header>
-    <h2 class="h2 article-title">Projects</h2>
-  </header>
-  
-  <section class="projects">
-  
-    <ul class="filter-list">
-  
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
+<header>
+  <h2 class="h2 article-title">Projects</h2>
+</header>
+
+<section class="projects">
+
+  <ul class="filter-list">
+
+    <li class="filter-item">
+      <button class="active" data-filter-btn>All</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Systems</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Machine Learning</button>
+    </li>
+    <li class="filter-item">
+      <button data-filter-btn>Software Development</button>
+    </li>
+
+  </ul>
+
+  <div class="filter-select-box">
+
+    <button class="filter-select" data-select> 
+
+      <div class="select-value" data-select-value>Select category</div>
+
+      <div class="select-icon">
+        <ion-icon name="chevron-down"></ion-icon>
+      </div> 
+
+    </button> 
+
+    <ul class="select-list">
+
+      <li class="select-item">
+        <button data-select-item>All</button>
       </li>
-  
-      <li class="filter-item">
-        <button data-filter-btn>Web design</button>
+
+      <li class="select-item">
+        <button data-select-item>Machine Learning</button>
       </li>
-  
-      <li class="filter-item">
-        <button data-filter-btn>Applications</button>
+
+      <li class="select-item">
+        <button data-select-item>Systems</button>
       </li>
-  
-      <li class="filter-item">
-        <button data-filter-btn>Web development</button>
+
+      <li class="select-item">
+        <button data-select-item>Software Development</button>
       </li>
-  
+
     </ul>
-  
-    <div class="filter-select-box">
-  
-      <button class="filter-select" data-select>
-  
-        <div class="select-value" data-selecct-value>Select category</div>
-  
-        <div class="select-icon">
-          <ion-icon name="chevron-down"></ion-icon>
-        </div>
-  
-      </button>
-  
-      <ul class="select-list">
-  
-        <li class="select-item">
-          <button data-select-item>All</button>
-        </li>
-  
-        <li class="select-item">
-          <button data-select-item>Web design</button>
-        </li>
-  
-        <li class="select-item">
-          <button data-select-item>Applications</button>
-        </li>
-  
-        <li class="select-item">
-          <button data-select-item>Web development</button>
-        </li>
-  
-      </ul>
-  
-    </div>
-  
-    <ul class="project-list">
-  
-      <li class="project-item  active" data-filter-item data-category="web development">
-        <a href="#">
-  
+    
+
+  </div>
+
+  <ul class="project-list">
+
+    <li class="project-item  active" data-filter-item data-category="machine learning">
+      <a href="https://github.com/Najib-Haq/Similarity-through-extracted-phrases-using-Self-Cross-Attention-Bert">
+        <h2 class="project-title">Similarity-through-extracted-phrases-using-Self-Cross-Attention-Bert</h2>
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/nhs/scbert.png" alt="ppml" loading="lazy">
+        </figure>
+
+        
+        <p class="project-category"><a href="https://github.com/Najib-Haq/Similarity-through-extracted-phrases-using-Self-Cross-Attention-Bert"><u>View on Github</u></a></p>
+        <p class="project-tech-stack">Pytorch, Huggingface, Sklearn</p>
+        <p class="project-category">Term Project for CSE 472: Machine Learning Sessional offered by the CSE Department of BUET. This project modifies the existing architecture of Bert to introduce self-cross attention and measures the performances on a semantic similarity task.</p>
+
+      </a>
+    </li>
+
+    <li class="project-item  active" data-filter-item data-category="machine learning">
+        <a href="https://github.com/Najib-Haq/Vectorized-CNN-from-scratch">
+            <h2 class="project-title">Vectorized Convolutional Neural Network from Scratch</h2>
+
+            <figure class="project-img">
+            <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/nhs/cnn_scratch.png" alt="ppml" loading="lazy">
+            </figure>
+
+            
+            <p class="project-category"><a href="https://github.com/Najib-Haq/Vectorized-CNN-from-scratch"><u>View on Github</u></a></p>
+            <p class="project-tech-stack">Numpy, Wandb</p>
+            <p class="project-category">A vectorized version of a Convolutional Neural Network using only numpy without any deeplearning frameworks. Training and testing of the developed model is done on the <a style="display: inline;" href="https://www.kaggle.com/datasets/BengaliAI/numta">NumtaDB</a>: Bengali Handwritten Digits dataset. This project is part of the final assignment of CSE 472: Machine Learning Sessional offered by the CSE Department of BUET. The final score was tested on a hidden dataset and my implementation ranked 1 among all the submissions in the course.</p>
+
+        </a>
+    </li>
+
+    <li class="project-item  active" data-filter-item data-category="software development">
+        <a href="https://www.youtube.com/watch?v=zDvitMZcFTU">
+            <h2 class="project-title">Forage, A Complete Research Tool</h2>
+
+            <figure class="project-img">
+            <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/forage.png" alt="forage" loading="lazy">
+            </figure>
+
+            
+            <p class="project-category"><a href="https://www.youtube.com/watch?v=zDvitMZcFTU"><u>View on YouTube</u></a><a href="https://github.com/Najib-Haq/forage-frontend"><u>View on Github</u></a></p>
+            <p class="project-tech-stack">Django REST, ReactJS, PostgresDB</p>
+            <p class="project-category">Implemented Forage, a complete tool for research management. Forage streamlines research management by providing a comprehensive solution for exploring, collaborating, and
+            submitting research projects. This was the term Project for CSE 408: Software Development Sessional offered by the CSE Department of BUET.</p>
+
+        </a>
+    </li>
+      
+
+    <li class="project-item  active" data-filter-item data-category="systems">
+      <a href="https://github.com/Najib-Haq/CSE-322-Computer-Networks">
+        <h2 class="project-title">TCP-Adaptive Reno</h2>
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/nhs/tcp.PNG" alt="swift" loading="lazy">
+        </figure>
+
+        
+        <p class="project-category"><a href="https://github.com/Najib-Haq/CSE-322-Computer-Networks"><u>View on Github</u></a></p>
+        <p class="project-tech-stack">NS3</p>
+        <p class="project-category">Simulation and implementation of a congestion control algorithm on two different topologies using NS3 - a network simulator. This was the term project for the CCSE 322: Computer Networks course offered by the CSE Department of BUET.</p>
+
+      </a>
+    </li>
+
+
+    <!-- <li class="project-item  active" data-filter-item data-category="systems">
+      <a href="https://github.com/Mushtari-Sadia/computer-graphics-sessional">
+        <h2 class="project-title">Ray Tracing</h2>
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/raytracing.png" alt="raytracing" loading="lazy">
+        </figure>
+
+        
+        <p class="project-category"><a href="https://github.com/Mushtari-Sadia/computer-graphics-sessional"><u>View on Github</u></a></p>
+        <p class="project-tech-stack">Graphics, OpenGL</p>
+        <p class="project-category">Followed by implementation of the raster based graphics pipeline, implemented ray tracing using OpenGL.</p>
+
+      </a>
+    </li>
+     -->
+    
+
+    <li class="project-item  active" data-filter-item data-category="systems">
+      <a href="https://github.com/Najib-Haq/CSE-314-Operating-System">
+        <h2 class="project-title">Xv6 Memory Management</h2>
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/xv6.jpeg" alt="xv6" loading="lazy">
+        </figure>
+
+        
+        <p class="project-category"><a href="https://github.com/Najib-Haq/CSE-314-Operating-System"><u>View on Github</u></a></p>
+        <p class="project-tech-stack">Xv6 Operating System</p>
+        <p class="project-category">Developed the paging framework of xv6 operating system, as well as implementing many other functionalities of the operating system. This assignments are for the CSE 314: Operating System Sessional course offered by the CSE Department of BUET.</p>
+
+      </a>
+    </li>
+
+    <li class="project-item  active" data-filter-item data-category="systems">
+        <a href="https://github.com/Najib-Haq/CSE-310-Compiler">
+          <h2 class="project-title">Compiler from scratch</h2>
+
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-  
-            <img src="./assets/img/projects/parkCar.png" alt="finance" loading="lazy">
+
+            <img src="./assets/images/nhs/compiler.jpg" alt="xv6" loading="lazy">
           </figure>
-  
-          <h3 class="project-title">Finance</h3>
-  
-          <p class="project-category">Web development</p>
-  
+
+          
+          <p class="project-category"><a href="https://github.com/Najib-Haq/CSE-310-Compiler"><u>View on Github</u></a></p>
+          <p class="project-tech-stack">Xv6 Operating System</p>
+          <p class="project-category">A compiler is made from scratch using yacc and bison. This assignments are for the CSE 310: Compiler Sessional course offered by the CSE Department of BUET.</p>
+
         </a>
       </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web development">
-        <a href="#">
-  
+    
+    
+    
+    <li class="project-item  active" data-filter-item data-category="software development">
+      <a href="https://www.youtube.com/watch?v=yPRRjTt6wIU">
+        <h2 class="project-title">Pandemic</h2>
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/nhs/pandemic.PNG" alt="forage" loading="lazy">
+        </figure>
+
+        
+        <p class="project-category"><a href="https://www.youtube.com/watch?v=yPRRjTt6wIU"><u>View on YouTube</u></a></p>
+        <p class="project-tech-stack">Django, Oracle SQL</p>
+        <p class="project-category">An online dashboard for pandemic updates. This was the term project for the CSE 216: Database Management System Sessional course offered by the CSE Department of BUET. </p>
+      </a>
+    </li>
+
+
+    <li class="project-item  active" data-filter-item data-category="software development">
+        <a href="https://github.com/Najib-Haq/Bookabook">
+          <h2 class="project-title">Bookabook</h2>
+
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-  
-            <img src="https://github.com/ayeshathoi/AngryBird-TermProject/blob/main/start.gif" alt="orizon" loading="lazy">
+
+            <img src="./assets/images/nhs/bookabook.png" alt="forage" loading="lazy">
           </figure>
-  
-          <h3 class="project-title">Orizon</h3>
-  
-          <p class="project-category">Web development</p>
-  
+
+          
+          <p class="project-category"><a href="https://github.com/Najib-Haq/Bookabook"><u>View on Github</u></a></p>
+          <p class="project-tech-stack">Java, JavaFX, Hibernate ORM</p>
+          <p class="project-category">An online peer-to-peer book sharing platform . This was the term project for the CSE 108: Object Oriented Programming Sessional course offered by the CSE Department of BUET. This project won the 2nd prize for Project Showcasing in BUET CSE Fest 2019.</p>
         </a>
       </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web design">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">Fundo</h3>
-  
-          <p class="project-category">Web design</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="applications">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">Brawlhalla</h3>
-  
-          <p class="project-category">Applications</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web design">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">DSM.</h3>
-  
-          <p class="project-category">Web design</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web design">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">MetaSpark</h3>
-  
-          <p class="project-category">Web design</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web development">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">Summary</h3>
-  
-          <p class="project-category">Web development</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="applications">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">Task Manager</h3>
-  
-          <p class="project-category">Applications</p>
-  
-        </a>
-      </li>
-  
-      <li class="project-item  active" data-filter-item data-category="web development">
-        <a href="#">
-  
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-  
-            <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-          </figure>
-  
-          <h3 class="project-title">Arrival</h3>
-  
-          <p class="project-category">Web development</p>
-  
-        </a>
-      </li>
-  
-    </ul>
-  
-  </section>
-  
-</div>
+    
+    
 
+    
+  </ul>
 
-<script>
-  // custom select variables
-const select = document.querySelector("[data-select]");
-const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
-
-select.addEventListener("click", function () { elementToggleFunc(this); });
-
-// add event in all select items
-for (let i = 0; i < selectItems.length; i++) {
-  selectItems[i].addEventListener("click", function () {
-
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    elementToggleFunc(select);
-    filterFunc(selectedValue);
-
-  });
-}
-
-
-
-// filter variables
-const filterItems = document.querySelectorAll("[data-filter-item]");
-
-const filterFunc = function (selectedValue) {
-
-  for (let i = 0; i < filterItems.length; i++) {
-
-    if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
-      filterItems[i].classList.add("active");
-    } else {
-      filterItems[i].classList.remove("active");
-    }
-
-  }
-
-}
-
-// add event in all filter button items for large screen
-let lastClickedBtn = filterBtn[0];
-
-for (let i = 0; i < filterBtn.length; i++) {
-
-  filterBtn[i].addEventListener("click", function () {
-
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    filterFunc(selectedValue);
-
-    lastClickedBtn.classList.remove("active");
-    this.classList.add("active");
-    lastClickedBtn = this;
-
-  });
-
-}
-
-</script>
+</section>
